@@ -56,13 +56,13 @@ export function Navbar() {
           <a href="#concept" className="hover:text-primary transition-colors">Concept</a>
 
           <div className="flex items-center gap-3">
-            <a href="#" aria-label="Documentation" className={iconBase}>
+            <a href="https://docs.minke.finance" aria-label="Documentation" className={iconBase}>
               <DocIcon />
             </a>
-            <a href="#" aria-label="X / Twitter" className={iconBase}>
+            <a href="https://x.com/MinkeFinance" aria-label="X / Twitter" className={iconBase}>
               <XIcon />
             </a>
-            <a href="#" aria-label="Discord" className={iconBase}>
+            <a href="https://discord.com/invite/fy6A7JCE5N" aria-label="Discord" className={iconBase}>
               <DiscordIcon />
             </a>
             <button className="bg-gradient-to-r from-primary to-accent text-white px-5 py-2.5 rounded-full font-sans font-medium text-sm shadow-md pointer-events-none opacity-90">

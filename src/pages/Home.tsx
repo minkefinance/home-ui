@@ -145,7 +145,7 @@ export default function Home() {
               <button className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all pointer-events-none">
                 Coming Soon
               </button>
-              <a href="#" className="text-text font-medium hover:text-primary transition-colors flex items-center gap-2 group">
+              <a href="https://docs.minke.finance" className="text-text font-medium hover:text-primary transition-colors flex items-center gap-2 group">
                 Read the doc
                 <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
               </a>
