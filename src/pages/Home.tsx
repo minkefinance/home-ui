@@ -1,5 +1,5 @@
 import { motion, useInView, type Variants } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { HeroCanvas } from "../components/HeroCanvas";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -56,7 +56,7 @@ export default function Home() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
   const heroRef = useRef<HTMLElement>(null);
 
-  function handleHeroMouseMove(e: React.MouseEvent<HTMLElement>) {
+  function handleHeroMouseMove(e: MouseEvent<HTMLElement>) {
     const rect = heroRef.current?.getBoundingClientRect();
     if (!rect) return;
     const cx = e.clientX - rect.left - rect.width / 2;
