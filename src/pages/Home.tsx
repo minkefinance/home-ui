@@ -142,9 +142,12 @@ export default function Home() {
             </motion.div>
             
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <button className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all pointer-events-none">
-                Coming Soon
-              </button>
+              <a
+                href="https://app.minke.finance/"
+                className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
+              >
+                App
+              </a>
               <a href="https://docs.minke.finance" className="text-text font-medium hover:text-primary transition-colors flex items-center gap-2 group">
                 Read the doc
                 <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
@@ -662,9 +665,12 @@ export default function Home() {
             </p>
 
             <div className="flex items-center justify-center">
-              <button className="bg-gradient-to-r from-primary to-accent text-white px-10 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all pointer-events-none">
-                Coming Soon
-              </button>
+              <a
+                href="https://app.minke.finance/"
+                className="bg-gradient-to-r from-primary to-accent text-white px-10 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
+              >
+                App
+              </a>
             </div>
           </motion.div>
         </div>

@@ -65,9 +65,12 @@ export function Navbar() {
             <a href="https://discord.com/invite/fy6A7JCE5N" aria-label="Discord" className={iconBase}>
               <DiscordIcon />
             </a>
-            <button className="bg-gradient-to-r from-primary to-accent text-white px-5 py-2.5 rounded-full font-sans font-medium text-sm shadow-md pointer-events-none opacity-90">
-              Coming Soon
-            </button>
+            <a
+              href="https://app.minke.finance/"
+              className="bg-linear-to-r from-primary to-accent text-white px-5 py-2.5 rounded-full font-sans font-medium text-sm shadow-md"
+            >
+              App
+            </a>
           </div>
         </div>
       </div>
