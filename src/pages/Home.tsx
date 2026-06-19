@@ -146,7 +146,7 @@ export default function Home() {
                 href="https://app.minke.finance/"
                 className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
-                App
+                Launch App
               </a>
               <a href="https://docs.minke.finance" className="text-text font-medium hover:text-primary transition-colors flex items-center gap-2 group">
                 Read the doc
@@ -669,7 +669,7 @@ export default function Home() {
                 href="https://app.minke.finance/"
                 className="bg-gradient-to-r from-primary to-accent text-white px-10 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
-                App
+              Launch App
               </a>
             </div>
           </motion.div>

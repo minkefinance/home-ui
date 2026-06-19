@@ -69,7 +69,7 @@ export function Navbar() {
               href="https://app.minke.finance/"
               className="bg-linear-to-r from-primary to-accent text-white px-5 py-2.5 rounded-full font-sans font-medium text-sm shadow-md"
             >
-              App
+              Launch App
             </a>
           </div>
         </div>
