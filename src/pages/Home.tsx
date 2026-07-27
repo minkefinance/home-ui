@@ -143,7 +143,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
               <a
-                href="https://app.minke.finance/"
+                href="https://apps.minke.finance"
                 className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
                 Launch App
@@ -248,7 +248,7 @@ export default function Home() {
                   }}
                 />
                 <p className="text-lg font-sans leading-relaxed text-muted">
-                  SAFTs, vesting schedules, staking rewards, bond coupons — over a trillion in value sits illiquid, non-tradable, and invisible on any balance sheet. No way to hedge it, price it, or put it to work while the clock runs down.
+                  SAFTs, vesting schedules, staking rewards, bond coupons — over a trillion in value sits illiquid, non-tradable, and invisible on any balance sheet. No way to hedge it, price i[...]
                 </p>
               </motion.div>
             </div>
@@ -616,7 +616,7 @@ export default function Home() {
                           <div className="font-mono text-[10px] tracking-[0.28em] uppercase text-primary mb-2">Vesting Token</div>
                           <h4 className="text-xl font-extrabold mb-2">What is a VT?</h4>
                           <p className="text-sm text-muted font-sans leading-relaxed max-w-lg">
-                            A VT is a fully fungible, on-chain token representing a future income stream. Tradable on any DEX, usable as collateral, and redeemable 1:1 against the underlying asset whenever income is realized.
+                            A VT is a fully fungible, on-chain token representing a future income stream. Tradable on any DEX, usable as collateral, and redeemable 1:1 against the underlying asse[...]
                           </p>
                         </div>
                       </div>
@@ -666,7 +666,7 @@ export default function Home() {
 
             <div className="flex items-center justify-center">
               <a
-                href="https://app.minke.finance/"
+                href="https://apps.minke.finance"
                 className="bg-gradient-to-r from-primary to-accent text-white px-10 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
               Launch App
