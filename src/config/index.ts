@@ -1,0 +1,1 @@
+export const launchApp = "https://app.minke.finance/"

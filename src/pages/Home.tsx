@@ -3,6 +3,7 @@ import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { HeroCanvas } from "../components/HeroCanvas";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import { launchApp } from "@/config";
 
 function AnimatedNumber({
   value,
@@ -143,7 +144,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
               <a
-                href="https://apps.minke.finance"
+                href={launchApp}
                 className="bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
                 Launch App
@@ -666,7 +667,7 @@ export default function Home() {
 
             <div className="flex items-center justify-center">
               <a
-                href="https://apps.minke.finance"
+                href={launchApp}
                 className="bg-gradient-to-r from-primary to-accent text-white px-10 py-4 rounded-full font-sans font-medium shadow-lg hover:shadow-xl transition-all"
               >
               Launch App

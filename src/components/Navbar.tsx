@@ -1,3 +1,4 @@
+import { launchApp } from "@/config";
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
@@ -66,7 +67,7 @@ export function Navbar() {
               <DiscordIcon />
             </a>
             <a
-              href="https://app.minke.finance/"
+              href={launchApp}
               className="bg-linear-to-r from-primary to-accent text-white px-5 py-2.5 rounded-full font-sans font-medium text-sm shadow-md"
             >
               Launch App
